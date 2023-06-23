@@ -9,7 +9,7 @@ import About from '../components/About'
 export default function Home() {
   return (
     <main>
-<section className="container mx-auto">
+<section className="container mx-auto p-2">
       <Navbar />
       <About />
       <Experience />
