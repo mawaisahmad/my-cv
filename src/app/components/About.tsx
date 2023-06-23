@@ -5,8 +5,8 @@ import Animatedtext from "./AnimatedText";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import React, { useRef, useEffect } from "react"
 
-const AnimatedNumbers = ({value}) =>  { 
-const ref = useRef(null);
+const AnimatedNumbers = ({value}:any) =>  { 
+const ref:any = useRef(null);
 const motionValue = useMotionValue(0);
 const springValue = useSpring (motionValue, { duration: 3000 })
 const isInView = useInView(ref);
