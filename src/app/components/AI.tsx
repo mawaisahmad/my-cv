@@ -5,7 +5,7 @@ import React from 'react';
 import { useRef } from 'react';
 import LiIcon from "./LiIcon";
 import Navbar from "./Navbar";
-const Details = ({work}) => {
+const Details = ({work}:any) => {
   const ref = useRef(null);
   
 <Navbar />
