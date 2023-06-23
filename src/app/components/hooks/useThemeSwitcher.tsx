@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import { useTheme } from "next-themes";
+
 const useThemeSwitcher = () => {
   const preferDarkQuery = "(prefers-color-scheme: dark)";
   const [mode, setMode] = useState("");

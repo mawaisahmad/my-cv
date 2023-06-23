@@ -8,7 +8,22 @@ import Navbar from "./Navbar";
 import avatar from "../../../avatar.jpg"
 import Image from "next/image";
 
-const Details = ({position, company, companyLink, time, address, work}) => {
+ const Details = ({
+  position,
+  company,
+  companyLink,
+  time,
+  address,
+  work,
+  
+}: {
+  position: string;
+  company: string;
+  companyLink: string;
+  time: string;
+  address: string;
+  work: string;
+}): JSX.Element => {
   const ref = useRef(null);
   
 <Navbar />

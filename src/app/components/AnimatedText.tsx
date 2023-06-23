@@ -25,7 +25,7 @@ duration:1,
 }
 }
 }
-const AnimatedText = ({text, className=""}) => {
+const AnimatedText = ({text}:any, className="") => {
 return (
 <div className="text-4xl text-dark mt-6 overflow-hidden">
 <motion.h1 className={`inline-block w-full text-dark capitalize text-4xl dark:text-light ${className}`}
@@ -34,7 +34,7 @@ initial="initial"
 animate="animate"
 >
 {
-text.split(" ").map((word, index) => 
+text.split(" ").map(({word}:any, {index}:any) => 
 <motion.span key={word+'-'+index} className="inline-block"
 variants={singelWord}
 >

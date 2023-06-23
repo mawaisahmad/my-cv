@@ -7,10 +7,18 @@ import useThemeSwitcher from './hooks/useThemeSwitcher';
 import { BsFillSunFill } from 'react-icons/bs'
 import { BsMoonStarsFill } from 'react-icons/bs'
 import { useRouter } from 'next/navigation'
-import Contacts from './Contacts';
 
+const CustomLink = ({
+  title,
+  href,
+  className
 
-const CustomLink = ({title, href, className=""}) => {
+}: {
+  title: string;
+  href: string;
+  className: string;
+}): JSX.Element => {
+
 return(
 <Link href={href} className={`${className} relative group`}>
 {title}
@@ -23,26 +31,36 @@ group-hover:w-full transition-[width] ease duration-300 dark:bg-light/80
 </Link>
 )
 }
-const CustomMobileLink = ({title, href, className="", toggle}) => {
+const CustomMobileLink = ({
+  title,
+  href,
+  className,
+  toggle
+}: {
+  title: string;
+  href: string;
+  className: string;
+  toggle: any;
+}): JSX.Element => {
+
   const router = useRouter();
   const handleClick = () => {
     toggle();
     router.push(href)
   }
 return(
-<button href={href} className={`${className} relative group`} onClick={handleClick}>
-{title}
-<span className={`
-h-[3px] inline-block w-0 bg-light dark:bg-dark 
-absolute left-0 -bottom-0.5
-group-hover:w-full transition-[width] ease duration-300 dark:bg-dark/80
-`}>&nbsp;
-</span>
+<button className={`${className} relative group`} onClick={handleClick}>
+  {title}
+  <span className={`
+    h-[3px] inline-block w-0 bg-light dark:bg-dark 
+    absolute left-0 -bottom-0.5
+    group-hover:w-full transition-[width] ease duration-300 dark:bg-dark/80
+  `}>&nbsp;</span>
 </button>
 )
 }
 const Navbar = () => {
-  const [mode, setMode] = useThemeSwitcher();
+  const [mode, setMode]:any = useThemeSwitcher();
   const [isOpen, setIsopen] = useState(false);
   const handleClick = () => {
     setIsopen(!isOpen)

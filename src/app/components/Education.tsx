@@ -8,7 +8,21 @@ import Navbar from "../components/Navbar";
 import avatar from "../../../avatar.jpg"
 import Image from "next/image";
 
-const Details = ({degree, institute, webLink, time, address, details}) => {
+const Details = ({
+  degree,
+  institute,
+  webLink,
+  time,
+  address,
+  details
+}: {
+  degree: string;
+  institute: string;
+  webLink: string;
+  time: string;
+  address: string;
+  details: string;
+}): JSX.Element => {
   const ref = useRef(null);
   return (
 <li ref={ref} className='my-8 w-[75%] mx-auto -ml-8 flex flex-col items-center justify-between'> 

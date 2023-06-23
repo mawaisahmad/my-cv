@@ -11,7 +11,22 @@ import image7 from '../../../public/image7.png'
 import { motion } from "framer-motion";
 import { AiFillGithub } from "react-icons/ai";
 const FramerImage = motion(Image);
-const FeaturedProject = ({type, title, summary, img, link, github}) => { 
+ const FeaturedProject = ({
+  type,
+  title,
+  summary,
+  img,
+  link,
+  github,
+  
+}: {
+  type: string;
+  title: string;
+  summary: string;
+  img: any;
+  link: string;
+  github: string;
+}): JSX.Element => {
 return(
 <article className="flex items-center justify-between rounded-3xl border border-solid dark:border-dark
  bg-dark/10 dark:bg-light/20 shadow-md shadow-dark/50 p-8 ml-16 lg:ml-2  relative lg:flex-col 
@@ -51,7 +66,20 @@ sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
 </article>
 )
 }
-const Project = ({type, title,  img, link, github}) => {
+const Project = ({
+  type,
+  title,
+  img,
+  link,
+  github,
+  
+}: {
+  type: string;
+  title: string;
+  img: any;
+  link: string;
+  github: string;
+}): JSX.Element => {
     return(
       <article className=" flex flex-col items-center justify-center rounded-2xl border border-solid dark:border-dark 
        bg-dark/10 dark:bg-light/20 p-6 shadow-md shadow-dark/50 relative ml-16 lg:ml-2 lg:flex-col 
