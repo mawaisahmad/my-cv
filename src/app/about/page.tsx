@@ -9,11 +9,10 @@ import About from '../components/About'
 export default function Home() {
   return (
     <main>
-<section className="container">
+<section className="">
       <Navbar />
       <About />
       <Experience />
-      <Education />
       </section>  
       <section className="fixed bottom-6 right-2">
       <Contacts />

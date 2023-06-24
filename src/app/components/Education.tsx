@@ -26,8 +26,8 @@ const Details = ({
 }): JSX.Element => {
   const ref = useRef(null);
   return (
-<li ref={ref} className='my-8 w-[75%] mx-auto -ml-8 flex flex-col items-center justify-between
-font-medium text-left dark:text-light rounded-2xl border border-solid dark:border-dark  bg-dark/10 dark:bg-light/20 p-6 shadow-md shadow-dark/50'> 
+    <div className="mt-8 grid w-full grid-cols-12 gap-16">
+<li ref={ref} className='col-span-9 lg:col-span-6 lg:ml-10 justify-left font-medium text-left dark:text-light rounded-2xl border border-solid dark:border-dark bg-dark/10 dark:bg-light/20 p-6 shadow-md shadow-dark/50'> 
 <LiIcon reference={ref}/>
 <div>
 <h3 className='capitalize font-bold text-2x1'>
@@ -42,6 +42,7 @@ font-medium text-left dark:text-light rounded-2xl border border-solid dark:borde
 </p>
 </div>
 </li>
+</div>
 )
 }
 const Education = () => {
@@ -57,12 +58,12 @@ return (
      <div className='mt-16'>
       <div>
         <AnimatedText text="Education" className="text-5xl text-dark font-bold text-center" />
-        <div className='w-[75%] mx-auto relative'>
+        <div className='w-full mx-auto relative'>
           <motion.div
             style={{ scaleY: scrollYProgress }}
-            className="absolute left-14 top-16 bottom-40 -ml-24 w-[4px] h-[71%] bg-dark dark:bg-primary origin-top"
+            className="absolute left top-14 -bottom-2 ml-5 w-[4px] h-[78%] bg-dark dark:bg-primary origin-top"
           />
-          <ul className="ml-16 w-full">
+          <ul className="">
             <Details 
               degree="MBA-Finance (Gold Medalist)"
               institute="Iqra University"
