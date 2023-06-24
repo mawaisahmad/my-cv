@@ -14,7 +14,8 @@ const Details = ({
   webLink,
   time,
   address,
-  details
+  details, 
+
 }: {
   degree: string;
   institute: string;
@@ -25,7 +26,8 @@ const Details = ({
 }): JSX.Element => {
   const ref = useRef(null);
   return (
-<li ref={ref} className='my-8 w-[75%] mx-auto -ml-8 flex flex-col items-center justify-between'> 
+<li ref={ref} className='my-8 w-[75%] mx-auto -ml-8 flex flex-col items-center justify-between
+font-medium text-left dark:text-light rounded-2xl border border-solid dark:border-dark  bg-dark/10 dark:bg-light/20 p-6 shadow-md shadow-dark/50'> 
 <LiIcon reference={ref}/>
 <div>
 <h3 className='capitalize font-bold text-2x1'>
@@ -60,8 +62,8 @@ return (
             style={{ scaleY: scrollYProgress }}
             className="absolute left-14 top-16 bottom-40 -ml-24 w-[4px] h-[71%] bg-dark dark:bg-primary origin-top"
           />
-          <ul className="w-[120%] lg:w-140 text-justify flex flex-col items-start justify-between ml-4 gap-12 dark:text-light">
-            <Details
+          <ul className="ml-16 w-full">
+            <Details 
               degree="MBA-Finance (Gold Medalist)"
               institute="Iqra University"
               webLink="https://iuisl.iqra.edu.pk/"
@@ -73,7 +75,7 @@ return (
               With a strong foundation in finance,
               I bring a wealth of knowledge and skills to any financial role or project."
             />
-                        <Details
+            <Details
               degree="CMA-Managerial Certification"
               institute="ICMAP"
               webLink="https://www.icmainternational.com/"

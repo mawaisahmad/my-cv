@@ -28,7 +28,8 @@ import Image from "next/image";
   
 <Navbar />
 return (
-<li ref={ref} className='my-8 w-[75%] mx-auto -ml-8 flex flex-col items-center justify-between'> 
+<li ref={ref} className='my-8 w-[75%] mx-auto -ml-8 flex flex-col items-center justify-between
+font-medium text-left dark:text-light rounded-2xl border border-solid dark:border-dark  bg-dark/10 dark:bg-light/20 p-6 shadow-md shadow-dark/50'> 
 <LiIcon reference={ref}/>
 <div>
 <h3 className='capitalize font-bold text-2x1'>
@@ -64,7 +65,7 @@ return (
             style={{ scaleY: scrollYProgress }}
             className="absolute left-14 top-16 -bottom-1 -ml-24 w-[4px] h-[120%] bg-dark dark:bg-primary origin-top"
           />
-          <ul className="w-[120%] flex flex-col items-start justify-between ml-4 gap-24  dark:text-light">
+          <ul className="w-full ml-16">
             <Details 
               position="Web Developer"
               company="Fiverr"

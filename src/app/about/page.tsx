@@ -9,13 +9,13 @@ import About from '../components/About'
 export default function Home() {
   return (
     <main>
-<section className="container mx-auto p-2">
+<section className="container">
       <Navbar />
       <About />
       <Experience />
       <Education />
       </section>  
-      <section className="fixed top-1/4 right-2 md:right-4">
+      <section className="fixed bottom-6 right-2">
       <Contacts />
       </section>
       <section>
