@@ -29,7 +29,7 @@ import Image from "next/image";
 <Navbar />
 return (
   <div className="mt-8 grid w-full grid-cols-12 gap-16">
-<li ref={ref} className='col-span-9 lg:col-span-7 ml-12 lg:ml-10 justify-left font-medium text-left dark:text-light rounded-2xl border border-solid dark:border-dark bg-dark/10 dark:bg-light/20 p-6 shadow-md shadow-dark/50'> 
+<li ref={ref} className='col-span-9 lg:col-span-6 ml-12 lg:ml-10 justify-left font-medium text-left dark:text-light rounded-2xl border border-solid dark:border-dark bg-dark/10 dark:bg-light/20 p-6 shadow-md shadow-dark/50'> 
 <LiIcon reference={ref}/>
 <div>
 <h3 className='capitalize font-bold text-2x1'>
