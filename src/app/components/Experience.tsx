@@ -28,9 +28,9 @@ import Image from "next/image";
   
 <Navbar />
 return (
-  <div className="mt-8 grid w-11/12 grid-cols-12 gap-16">
-<li ref={ref} className='col-span-10 lg:col-span-7 justify-left font-medium text-left dark:text-light rounded-2xl border border-solid dark:border-dark bg-dark/10 dark:bg-light/20 p-6 shadow-md shadow-dark/50'> 
-<LiIcon reference={ref} className="col-span-1"/>
+  <div className="mt-8 grid w-full grid-cols-12 gap-16">
+<li ref={ref} className='col-span-9 lg:col-span-6 justify-left font-medium text-left dark:text-light rounded-2xl border border-solid dark:border-dark bg-dark/10 dark:bg-light/20 p-6 shadow-md shadow-dark/50'> 
+<LiIcon reference={ref}/>
 <div>
 <h3 className='capitalize font-bold text-2x1'>
   {position}&nbsp;<a href={companyLink}
@@ -61,12 +61,12 @@ return (
     
       <div>
         <AnimatedText text="Experience" className="text-5xl text-dark font-bold text-center" />
-        <div className='w-[75%] mx-auto relative'>
+        <div className='w-full mx-auto relative'>
           <motion.div
             style={{ scaleY: scrollYProgress }}
-            className="absolute left-14 top-16 -bottom-1 -ml-24 w-[4px] h-[120%] bg-dark dark:bg-primary origin-top"
+            className="absolute left top-16 -bottom-1 ml-16 w-[4px] h-[80%] bg-dark dark:bg-primary origin-top"
           />
-          <ul className="w-full ml-16">
+          <ul className="ml-28">
             <Details 
               position="Web Developer"
               company="Fiverr"
