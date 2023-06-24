@@ -67,7 +67,7 @@ const Navbar = () => {
   }
   return (
     <header
-    className='top-0 left-0 w-full px-32 font-medium flex items-center justify-between shadow-md dark:text-light/80 relative lg:px-16 md:px-6 sm:px-4 z-20'>
+    className='top-0 left-0 w-full px-32 font-medium flex items-center justify-between shadow-md dark:text-light/80 relative lg:px-6 md:px-6 sm:px-4 z-20'>
 
       <button className='flex-col justify-center items-center hidden lg:flex' onClick={handleClick}>
         <span className={`bg-dark dark:bg-light/80  transition-all duration-300 ease-out block h-0.5 w-8 rounded-sm ${isOpen ? "rotate-45 translate-y-1" : "-translate-y-0.5"}`}></span>
