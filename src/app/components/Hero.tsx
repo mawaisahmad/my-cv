@@ -28,7 +28,7 @@ const Hero = () => {
 <h1>
 < AnimatedText text="I'm Awais Ahmad" className="!text-6xl  text-dark dark:text-light font-bold text-left lg:text-4xl lg:w-full lg:!text-center md:!text-3xl sm:!text-6xl"/>
 </h1>
-<h4 className="text-4xl text-dark dark:text-light font-bold pt-5 text-start lg:text-center xl:text-4xl lg:!text-3xl md:!text-3xl sm:!text-2xl">
+<h4 className="text-4xl text-dark dark:text-light font-bold pt-5 text-start lg:text-center lg:text-2xl md:!text-3xl sm:!text-2xl">
 <Typewriter
   options={{
     strings: ["Data Analyst!", "Web Developer!"],
