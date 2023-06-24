@@ -64,7 +64,7 @@ return (
         <div className='w-full mx-auto relative'>
           <motion.div
             style={{ scaleY: scrollYProgress }}
-            className="absolute left top-16 -bottom-1 m-6 w-[4px] h-[80%] bg-dark dark:bg-primary origin-top"
+            className="absolute left top-14 -bottom-1 m-5 w-[4px] h-[80%] bg-dark dark:bg-primary origin-top"
           />
           <ul className="ml-28">
             <Details 

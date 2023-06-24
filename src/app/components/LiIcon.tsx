@@ -8,7 +8,7 @@ const LiIcon = ({reference}:any) => {
   });
 
   return (
-    <figure className="absolute -left-8 stroke-dark dark:stroke-light">
+    <figure className="absolute -left-9 stroke-dark dark:stroke-light">
       <svg width="75" height="75" viewBox="0 0 100 100">
         <circle cx="75" cy="50" r="15" className="stroke-primary stroke-1 fill-none" />
         <motion.circle
