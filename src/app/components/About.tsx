@@ -55,7 +55,7 @@ const About = () => {
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/>
     </div>
 
-<div className='col-span-2 flex flex-col items-end justify-between lg:col-span-4 lg:flex-row lg:items-center md:order-3'>
+<div className='col-span-2 flex flex-col items-end justify-between lg:col-span-3 lg:flex-row lg:items-center md:order-3'>
           <div className='flex flex-col items-end justify-center md:items-center'>
             <span className='inline-block text-5xl font-bold dark:text-light lg:text-lg sm:text-4xl xs:text-3xl'>
               <AnimatedNumbers value={400}/>+
