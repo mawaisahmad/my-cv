@@ -58,9 +58,9 @@ return (
         <div className='w-[75%] mx-auto relative'>
           <motion.div
             style={{ scaleY: scrollYProgress }}
-            className="absolute left-14 top-16 bottom-40 -ml-24 w-[4px] h-[73%] bg-dark dark:bg-primary origin-top"
+            className="absolute left-14 top-16 bottom-40 -ml-24 w-[4px] h-[71%] bg-dark dark:bg-primary origin-top"
           />
-          <ul className="w-[120%] flex flex-col items-start justify-between ml-4 gap-12 dark:text-light">
+          <ul className="w-[120%] lg:w-140 text-justify flex flex-col items-start justify-between ml-4 gap-12 dark:text-light">
             <Details
               degree="MBA-Finance (Gold Medalist)"
               institute="Iqra University"
