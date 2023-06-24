@@ -26,7 +26,7 @@ const Hero = () => {
 <div className="w-1/2 flex flex-col"> 
 
 <h1>
-< AnimatedText text="I'm Awais Ahmad" className="!text-6xl text-dark font-bold text-left xl:text-5xl lg:w-full lg:!text-center lg:!text-4xl md:!text-3xl sm:!text-6xl"/>
+< AnimatedText text="I'm Awais Ahmad" className="!text-6xl  text-dark dark:text-light font-bold text-left lg:text-4xl lg:w-full lg:!text-center md:!text-3xl sm:!text-6xl"/>
 </h1>
 <h4 className="text-4xl text-dark dark:text-light font-bold pt-5 text-start lg:text-center xl:text-4xl lg:!text-3xl md:!text-3xl sm:!text-2xl">
 <Typewriter
@@ -40,7 +40,7 @@ const Hero = () => {
 />
           </h4>
 <div className="bg-gold mt-4 h-[3px] w-[140px] lg:mx-auto"></div>
-<p className="text-dark dark:text-light text-2xl mt-8 font-bold lg:text-center">
+<p className="text-dark dark:text-light text-sm mt-8 font-bold lg:text-center">
  Your satisfaction is my top priority...
 </p>
 <div className= "flex items-center self-start mt-2 pt-6 lg:self-center"> 
