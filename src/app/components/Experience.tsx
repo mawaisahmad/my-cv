@@ -28,9 +28,9 @@ import Image from "next/image";
   
 <Navbar />
 return (
-<li ref={ref} className='my-8 w-[75%] mx-auto -ml-8 flex flex-col items-center justify-between
-font-medium text-left dark:text-light rounded-2xl border border-solid dark:border-dark  bg-dark/10 dark:bg-light/20 p-6 shadow-md shadow-dark/50'> 
-<LiIcon reference={ref}/>
+  <div className="mt-8 grid w-11/12 grid-cols-12 gap-16">
+<li ref={ref} className='col-span-10 lg:col-span-7 justify-left font-medium text-left dark:text-light rounded-2xl border border-solid dark:border-dark bg-dark/10 dark:bg-light/20 p-6 shadow-md shadow-dark/50'> 
+<LiIcon reference={ref} className="col-span-1"/>
 <div>
 <h3 className='capitalize font-bold text-2x1'>
   {position}&nbsp;<a href={companyLink}
@@ -44,6 +44,7 @@ font-medium text-left dark:text-light rounded-2xl border border-solid dark:borde
 </p>
 </div>
 </li>
+</div>
 )
 }
 const Experience = () => {
