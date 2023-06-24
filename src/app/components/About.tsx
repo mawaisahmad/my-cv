@@ -32,7 +32,7 @@ const About = () => {
 <main className='flex w-full flex-col items-center justify-center'> 
 <Animatedtext text="Passion Fuels Purpose!" className="!text-7xl font-bold lg:!text-5xl sm:!text-4xl xs:!text-3xl lg:text-center"/>
 <div className='grid w-11/12 grid-cols-8 gap-16'>
-<div className='col-span-3 flex flex-col items-start justify-around gap-2  md:order-2 lg:col-span-7 '>
+<div className='col-span-3 flex flex-col items-start justify-around gap-2  md:order-2 lg:col-span-6 '>
 <h2 className='mb-4 text-1g font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
 <p className="font-medium text-left dark:text-light rounded-2xl border border-solid dark:border-dark  bg-dark/10 dark:bg-light/20 p-6 shadow-md shadow-dark/50 ">
     For the past eight years, I have specialized in data analysis, providing research analytical services on freelancing forums. 
@@ -48,14 +48,14 @@ const About = () => {
     </p>
      </div>
     <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark dark:border-light bg-light
-     dark:bg-dark p-8 mt-16 md:order-1 lg:col-span-7">
+     dark:bg-dark p-8 mt-16 md:order-1 lg:col-span-6">
         <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light/80"/>
             <Image src={awais} alt="Alif" className="w-full h-auto rounded-2xl" 
             priority
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/>
     </div>
 
-<div className='col-span-2 flex flex-col items-end justify-between lg:col-span-6 lg:flex-row lg:items-center md:order-3'>
+<div className='col-span-2 flex flex-col items-end justify-between lg:col-span-4 lg:flex-row lg:items-center md:order-3'>
           <div className='flex flex-col items-end justify-center md:items-center'>
             <span className='inline-block text-5xl font-bold dark:text-light lg:text-lg sm:text-4xl xs:text-3xl'>
               <AnimatedNumbers value={400}/>+
