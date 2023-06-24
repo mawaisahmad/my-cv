@@ -29,7 +29,7 @@ import Image from "next/image";
 <Navbar />
 return (
   <div className="mt-8 grid w-full grid-cols-12 gap-16">
-<li ref={ref} className='col-span-9 lg:col-span-5 lg:-ml-14 justify-left font-medium text-left dark:text-light rounded-2xl border border-solid dark:border-dark bg-dark/10 dark:bg-light/20 p-6 shadow-md shadow-dark/50'> 
+<li ref={ref} className='col-span-9 lg:col-span-5 ml-12 lg:ml-10 justify-left font-medium text-left dark:text-light rounded-2xl border border-solid dark:border-dark bg-dark/10 dark:bg-light/20 p-6 shadow-md shadow-dark/50'> 
 <LiIcon reference={ref}/>
 <div>
 <h3 className='capitalize font-bold text-2x1'>
@@ -64,9 +64,9 @@ return (
         <div className='w-full mx-auto relative'>
           <motion.div
             style={{ scaleY: scrollYProgress }}
-            className="absolute left top-14 -bottom-2 m-5 w-[4px] h-[78%] bg-dark dark:bg-primary origin-top"
+            className="absolute left top-14 -bottom-2 ml-5 w-[4px] h-[78%] bg-dark dark:bg-primary origin-top"
           />
-          <ul className="ml-28">
+          <ul className="">
             <Details 
               position="Web Developer"
               company="Fiverr"
