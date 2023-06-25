@@ -31,7 +31,7 @@ const About = () => {
 
 <main className='flex w-full flex-col items-center justify-center'> 
 <Animatedtext text="Passion Fuels Purpose!" className="!text-7xl font-bold lg:!text-5xl sm:!text-4xl xs:!text-3xl lg:text-center"/>
-<div className='grid w-11/12 grid-cols-8 gap-16'>
+<div className='grid w-11/12 grid-cols-8 gap-16'> 
 <div className='col-span-3 flex flex-col items-start justify-around gap-2  md:order-2 lg:col-span-6 '>
 <h2 className='mb-4 text-1g font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
 <p className="font-medium text-left dark:text-light rounded-2xl border border-solid dark:border-dark  bg-dark/10 dark:bg-light/20 p-6 shadow-md shadow-dark/50 ">

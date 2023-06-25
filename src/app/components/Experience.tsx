@@ -28,8 +28,10 @@ import Image from "next/image";
   
 <Navbar />
 return (
-  <div className="flex w-full flex-col items-center justify-center">
-<li ref={ref} className='w-11/12 col-span-3 flex flex-col -ml-12 items-start justify-around gap-2 md:order-2 lg:col-span-6 justify-left font-medium text-left dark:text-light rounded-2xl border border-solid dark:border-dark bg-dark/10 dark:bg-light/20 p-6 shadow-md shadow-dark/50'> 
+  <main className='flex w-full flex-col items-center justify-center'> 
+  <div className="grid w-11/12 grid-cols-8 gap-16">
+    <div className="col-span-6 lg:col-span-5 flex flex-col items-start justify-around gap-2  md:order-2">
+<li ref={ref} className='mb-16 font-medium text-left dark:text-light rounded-2xl border border-solid dark:border-dark  bg-dark/10 dark:bg-light/20 p-6 shadow-md shadow-dark/50'> 
 <LiIcon reference={ref}/>
 <div>
 <h3 className='capitalize font-bold text-2x1'>
@@ -45,6 +47,8 @@ return (
 </div>
 </li>
 </div>
+</div>
+</main>
 )
 }
 const Experience = () => {
@@ -62,11 +66,11 @@ return (
       <div>
         <AnimatedText text="Experience" className="text-7xl text-dark font-bold text-center" />
         <div className='w-full relative'>
-          <motion.div
+                    <motion.div
             style={{ scaleY: scrollYProgress }}
             className="absolute left top-14 -bottom-2 ml-16 w-[4px] h-[88%] bg-dark dark:bg-primary origin-top"
           />
-          <ul className="ml-24 pb-8">
+          <ul className="ml-16">
             <Details 
               position="Web Developer"
               company="Fiverr"
