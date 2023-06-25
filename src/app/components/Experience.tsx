@@ -32,7 +32,7 @@ return (
   <div className="grid w-11/12 grid-cols-8 gap-16">
     <div className="col-span-6 lg:col-span-5 flex flex-col items-start justify-around gap-2  md:order-2">
 <li ref={ref} className='mb-16 font-medium text-left dark:text-light rounded-2xl border border-solid dark:border-dark  bg-dark/10 dark:bg-light/20 p-6 shadow-md shadow-dark/50'> 
-<LiIcon reference={ref}/>
+<LiIcon reference={ref} className=""/>
 <div>
 <h3 className='capitalize font-bold text-2x1'>
   {position}&nbsp;<a href={companyLink}
@@ -68,7 +68,7 @@ return (
         <div className='w-full relative'>
                     <motion.div
             style={{ scaleY: scrollYProgress }}
-            className="absolute left top-14 -bottom-2 ml-16 w-[4px] h-[88%] bg-dark dark:bg-primary origin-top"
+            className="absolute left top-14 -bottom-2 ml-16 lg:ml-8 w-[4px] h-[88%] bg-dark dark:bg-primary origin-top"
           />
           <ul className="ml-16">
             <Details 
