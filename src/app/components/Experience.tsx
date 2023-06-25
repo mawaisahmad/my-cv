@@ -61,7 +61,7 @@ const Experience = () => {
   )
 return (
 
-     <div className='mt-16'>
+     <div className='mt-8 mb-4'>
     
       <div>
         <AnimatedText text="Experience" className="!text-6xl lg:!text-4xl text-dark font-bold text-center" />
