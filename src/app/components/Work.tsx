@@ -29,8 +29,8 @@ const FramerImage = motion(Image);
 }): JSX.Element => {
 return(
 <article className="flex items-center justify-between rounded-3xl border border-solid dark:border-dark
- bg-dark/10 dark:bg-light/20 shadow-md shadow-dark/50 p-8 ml-16 lg:ml-2  relative lg:flex-col 
- lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4">
+ bg-dark/10 dark:bg-light/20 shadow-md shadow-dark/50 p-8 ml-16 lg:ml-0  relative lg:flex-col 
+ lg:p-4 xs:rounded-2xl xs:rounded-br-3xl xs:p-4">
  
   {/* <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark dark:bg-light rounded-br-3xl xs:-right-2 sm:h-[102%] xs:w-full xs:rounded-[1.5rem]'/>  */}
 

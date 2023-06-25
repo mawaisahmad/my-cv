@@ -32,7 +32,7 @@ return (
   <div className="grid w-11/12 grid-cols-8 gap-16">
     <div className="col-span-6 lg:col-span-5 flex flex-col items-start justify-around gap-2  md:order-2">
 <li ref={ref} className='mb-16 font-medium text-left dark:text-light rounded-2xl border border-solid dark:border-dark  bg-dark/10 dark:bg-light/20 p-6 shadow-md shadow-dark/50'> 
-<LiIcon reference={ref} className=""/>
+<LiIcon reference={ref} />
 <div>
 <h3 className='capitalize font-bold text-2x1'>
   {position}&nbsp;<a href={companyLink}
@@ -64,7 +64,7 @@ return (
      <div className='mt-16'>
     
       <div>
-        <AnimatedText text="Experience" className="text-7xl text-dark font-bold text-center" />
+        <AnimatedText text="Experience" className="!text-6xl lg:!text-4xl text-dark font-bold text-center" />
         <div className='w-full relative'>
                     <motion.div
             style={{ scaleY: scrollYProgress }}
@@ -123,7 +123,7 @@ return (
                Through my leadership, I promoted excellence, 
                encouraged innovation, and facilitated the achievement of our institute's goals."
             />
-            <AnimatedText text="Education" className="text-7xl text-dark font-bold text-center" />
+            <AnimatedText text="Education" className="!text-6xl lg:!text-4xl text-dark font-bold text-center" />
             <Details 
               position="MBA-Finance (Gold Medalist)"
               company="Iqra University"
