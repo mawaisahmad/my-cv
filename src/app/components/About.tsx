@@ -66,7 +66,7 @@ const About = () => {
             <span className='inline-block text-5xl font-bold dark:text-light lg:text-lg sm:text-4xl xs:text-3xl'>
               <AnimatedNumbers value={500}/>+
             </span>
-            <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 whitespace-nowrap lg:text-center lg:text-lg sm:text-base xs:text-sm ml-2'>Work Completed</h2>
+            <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 whitespace-nowrap lg:text-center lg:text-lg sm:text-base xs:text-sm ml-2'>tasks Completed</h2>
           </div>
           <div className='flex flex-col items-end justify-center lg:items-center'>
             <span className='inline-block text-5xl font-bold dark:text-light lg:text-lg sm:text-4xl xs:text-3xl'>
