@@ -33,12 +33,12 @@ return (
     <div className="col-span-7 lg:col-span-6 flex flex-col items-start justify-around gap-2  md:order-2">
 <li ref={ref} className='mb-14 lg:mb-6 lg:p-2 font-medium text-left dark:text-light rounded-2xl border border-solid dark:border-dark  bg-dark/10 dark:bg-light/20 p-6 shadow-md shadow-dark/50'> 
 <LiIcon reference={ref} />
-<div>
+<div className=" dark:text-light">
 <h3 className='capitalize font-bold text-2x1'>
   {position}&nbsp;<a href={companyLink}
   target='_blank'
   className='text-primary capitalize'
-  >@{company} </a></h3> <span className='capitalize font-medium text-dark/75'>
+  >@{company} </a></h3> <span className='capitalize font-medium text-dark/75 dark:text-light/75'>
 {time}|{address}
 </span>
 <p className='font-medium w-full'>
@@ -76,8 +76,7 @@ return (
               companyLink="www.fiverr.com"
               time="2022-Present"
               address="Pakistan"
-              work="I work as a Next.js full-stack developer on Fiverr,
-               offering my expertise and services to clients.
+              work="I work as a Next.js full-stack developer on Fiverr.
                With my strong command over Next.js, I deliver robust and efficient web applications.
                I pride myself on delivering high-quality work that meets client requirements and
                exceeds their expectations. 

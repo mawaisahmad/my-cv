@@ -14,9 +14,7 @@ export default function Home() {
       <section className="fixed top-1/4 right-2">
       <Contacts />
       </section>
-      <section className="bg-slate-400 bottom-6">
       <Footer/>
-      </section>
       </main>
   )
 }
