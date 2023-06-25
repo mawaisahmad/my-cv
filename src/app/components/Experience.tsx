@@ -30,8 +30,8 @@ import Image from "next/image";
 return (
   <main className='flex w-full flex-col items-center justify-center'> 
   <div className="grid w-11/12 grid-cols-9 gap-16">
-    <div className="col-span-6 lg:col-span-6 flex flex-col items-start justify-around gap-2  md:order-2">
-<li ref={ref} className='mb-16 lg:p-2 font-medium text-left dark:text-light rounded-2xl border border-solid dark:border-dark  bg-dark/10 dark:bg-light/20 p-6 shadow-md shadow-dark/50'> 
+    <div className="col-span-7 lg:col-span-6 flex flex-col items-start justify-around gap-2  md:order-2">
+<li ref={ref} className='mb-14 lg:mb-6 lg:p-2 font-medium text-left dark:text-light rounded-2xl border border-solid dark:border-dark  bg-dark/10 dark:bg-light/20 p-6 shadow-md shadow-dark/50'> 
 <LiIcon reference={ref} />
 <div>
 <h3 className='capitalize font-bold text-2x1'>
@@ -61,9 +61,7 @@ const Experience = () => {
   )
 return (
 
-     <div className=''>
     
-      <div>
        
         <div className='w-full relative'>
                     <motion.div
@@ -71,7 +69,7 @@ return (
             className="absolute left top-24 -bottom-0 ml-16 lg:ml-4 w-[4px] h-[87%] bg-dark dark:bg-primary origin-top"
           />
           <ul className="ml-16 lg:ml-4">
-             <AnimatedText text="Experience" className="!text-6xl lg:!text-4xl text-dark font-bold text-center mb-8 lg:text-start" />
+             <AnimatedText text="Experience" className="!text-6xl lg:!text-4xl text-dark font-bold text-center mb-4 ml-8 lg:text-start" />
                         <Details 
               position="Web Developer"
               company="Fiverr"
@@ -124,7 +122,7 @@ return (
                Through my leadership, I promoted excellence, 
                encouraged innovation, and facilitated the achievement of our institute's goals."
             />
-            <AnimatedText text="Education" className="!text-6xl lg:!text-4xl text-dark font-bold text-center mb-8 lg:text-start" />
+            <AnimatedText text="Education" className="!text-6xl lg:!text-4xl text-dark font-bold text-center mb-4 ml-8 lg:text-start" />
             <Details 
               position="MBA-Finance (Gold Medalist)"
               company="Iqra University"
@@ -163,8 +161,6 @@ return (
             />
           </ul>
         </div>
-      </div>
-    </div>
 )
 }
 export default Experience;

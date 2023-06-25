@@ -119,7 +119,7 @@ sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
 const Work = () => {
   return (
     <>
-    <AnimatedText text="Passion fuel" className='text-5xl text-dark font-bold text-center mt-16'/>
+    <AnimatedText text="Passion Drives Success" className='text-5xl text-dark font-bold text-center mt-16'/>
     <main className='grid grid-cols-12 gap-12 gap-y-16 xl:gap-x-8 lg:gap-x-4 md:gap-y-12 sm:gap-x-0 mt-10 ml-16 lg:ml-2'>
     <div className="col-span-10">
       <FeaturedProject 
