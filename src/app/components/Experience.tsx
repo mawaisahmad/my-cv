@@ -70,7 +70,7 @@ return (
             style={{ scaleY: scrollYProgress }}
             className="absolute left top-24 -bottom-0 ml-16 lg:ml-4 w-[4px] h-[87%] bg-dark dark:bg-primary origin-top"
           />
-          <ul className="ml-16">
+          <ul className="ml-16 lg:ml-4">
              <AnimatedText text="Experience" className="!text-6xl lg:!text-4xl text-dark font-bold text-center mb-8 lg:text-start" />
                         <Details 
               position="Web Developer"
