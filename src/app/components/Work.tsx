@@ -82,7 +82,7 @@ const Project = ({
 }): JSX.Element => {
     return(
       <article className=" flex flex-col items-center justify-center rounded-2xl border border-solid dark:border-dark 
-       bg-dark/10 dark:bg-light/20 p-6 shadow-md shadow-dark/50 relative ml-16 lg:ml-2 lg:flex-col 
+       bg-dark/10 dark:bg-light/20 p-6 shadow-md shadow-dark/50 relative ml-16 lg:ml-0 lg:flex-col 
  lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4">
 <Link href={link} target="_blank"
 className='w-full cursor-pointer overflow-hidden rounded-lg'>

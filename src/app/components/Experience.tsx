@@ -29,7 +29,7 @@ import Image from "next/image";
 <Navbar />
 return (
   <main className='flex w-full flex-col items-center justify-center'> 
-  <div className="grid w-11/12 grid-cols-8 gap-16">
+  <div className="grid w-11/12 grid-cols-9 gap-16">
     <div className="col-span-6 lg:col-span-6 flex flex-col items-start justify-around gap-2  md:order-2">
 <li ref={ref} className='mb-16 lg:p-2 font-medium text-left dark:text-light rounded-2xl border border-solid dark:border-dark  bg-dark/10 dark:bg-light/20 p-6 shadow-md shadow-dark/50'> 
 <LiIcon reference={ref} />
